@@ -1,0 +1,283 @@
+.main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center 
+}
+.main-menu li{
+    position: relative;
+}
+.main-menu li a{
+    font-weight: bold;
+    color: black;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+.main-menu ul.sub-menu{
+    position: absolute;
+    background-color: white;
+    padding: 15px 0px;
+    list-style: none;
+    width: 200px;
+
+    display: none;
+}
+.main-menu li:hover ul.sub-menu{
+    display: block;
+}
+.main-menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid #353535;
+}
+.main-menu .sub-menu li:hover>a{
+    color: orange;
+}
+.main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+.main-menu ul.sub-menu ul.sub-menu{
+    left: 200px;
+    top: -17px;
+    display: none;
+}
+
+.main-menu ul.sub-menu li:hover ul.sub-menu{
+    display: block;
+}
+
+.main-menu>li>a:hover{
+    color: orange;
+}
+
+nav {
+    overflow: visible;
+}
+
+
+.main-menu ul.sub-menu {
+    position: absolute;
+}
+
+
+.main-menu ul.sub-menu {
+    z-index: 1000;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+.sub-menu{
+    border-top: 2px solid orange;
+}
+.footer ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}   
+.footer ul li>a{
+    text-decoration: none;
+    color: #353535;
+}
+.footer ul li:hover >a{
+    color: orange;
+}
+.footer p>a{
+    text-decoration: none;
+    color: orange;
+}
+.main-collection-left {
+    width: 100%;
+}
+
+.shop-filter-wrap {
+    padding: 20px;
+}
+
+.head-for-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-filter-choose {
+    margin-top: 20px;
+}
+
+.shop-filter {
+    margin-top: 20px;
+}
+
+.shop-filter h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.shop-filter-list {
+    margin-top: 10px;
+
+}
+
+.shop-filter-item {
+    margin-bottom: 10px;
+}
+
+
+.main-collection-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-sort-style {
+    display: flex;
+    align-items: center;
+}
+
+.shop-filter-mobile-btn {
+    margin-left: 10px;
+}
+
+.shop-filter-mobile-btn button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.shop-sort-item {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+
+.shop-sort-by {
+    display: flex;
+    align-items: center;
+}
+
+.shop-sort-by label {
+    margin-right: 10px;
+}
+
+.page-about-new-main-item {
+    display: flex;
+
+}
+
+.page-about-new-main-item-left {
+    width: 50%;
+
+}
+
+.page-about-new-main-item-left img {
+    width: 100%;
+    height: auto;
+
+}
+
+.page-about-new-main-item-right {
+    width: 50%;
+    padding: 20px;
+
+}
+
+.section-title-all span {
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+}
+
+.section-title-all p {
+    margin-top: 10px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; 
+  }
+  
+  .input-lg {
+    height: auto;
+    padding: 10px; 
+  }
+
+
+.btn-outline.insButton {
+    background-color: transparent;
+    color: #000;
+    border-color: #000;
+  }
+  
+  .btn-outline.insButton:hover,
+  .btn-outline.insButton:focus {
+    background-color: #000;
+    color: white;
+  }
+.breadcrumb li a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}  
+.product-gallery {
+    text-align: center;
+  }
+  
+  .main-image {
+    width: 80%;
+  }
+  
+  .thumbnail-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .thumbnail {
+    width: 10%;
+    margin: 5px;
+  }
+  
+  .selected {
+    border: solid red;
+  }
+.main-product-title{
+    color: #353535;
+    font-weight:bold;
+}  
+.main-product-info span{
+    color: orange;
+}
+.main-product-price-wrap{
+    font-weight: bold;
+    color: red;
+}
+.shop-freeship-note{
+    color: #353535;
+}
